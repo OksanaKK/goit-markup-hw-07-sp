@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAC,MAAM;EACtB,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;CAClB",
+    "sources": [
+        "../sass/components/social-links.scss"
+    ],
+    "names": [],
+    "file": "social-links.css"
+}

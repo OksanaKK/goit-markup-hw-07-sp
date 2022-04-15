@@ -11,7 +11,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.min.css"/>
+    <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
 
   <body>
@@ -19,9 +20,9 @@
 
     <header  class="header">
       <div class=" header-container container">
-          <a class="logo link" href="" lang="en"
+          <a class="header-logo logo link" href="" lang="en"
         ><span class="logo-web link">Web</span
-        ><span class="logo-studio link">Studio</span></a>
+        ><span class="header-logo-studio link">Studio</span></a>
         <nav class="navigation">
         <ul class="navigation-list list">
           <li class="navigation-list-item">
@@ -243,8 +244,8 @@
     <footer class="footer">
       <div class="footer-container container">
         <section class="footer-contacts">
-        <a class="footer-logo link" href="" lang="en"
-          ><span class="footer-logo-web link">Web</span
+        <a class="footer-logo logo link" href="" lang="en"
+          ><span class="logo-web link">Web</span
           ><span class="footer-logo-studio link">Studio</span></a
         >
         <address id="contacts">
@@ -270,35 +271,39 @@
           </ul>
         </address>
       </section>
-        <section class="footer-social-links">
-          <h3 class="footer-head">присоединяйтесь</h3>
-          <ul class="footer-social-link-list">
-            <li class="footer-social-links-item">
-              <a class="footer-social-link-link" href=""><svg class="footer-link-icon" width="20px" height="20px"><use href="./images/sprite.svg#instagram"></use></svg></a>
-
-            </li> 
-            <li class="footer-social-links-item">
-              <a class="footer-social-link-link" href=""><svg class="footer-link-icon" width="20px" height="20px"><use href="./images/sprite.svg#twitter"></use></svg></a>
-
-            </li> 
-            <li class="footer-social-links-item">
-              <a class="footer-social-link-link" href=""><svg class="footer-link-icon" width="20px" height="20px"><use href="./images/sprite.svg#facebook"></use></svg></a>
-
-            </li> 
-            <li class="footer-social-links-item">
-              <a class="footer-social-link-link" href=""><svg class="footer-link-icon" width="20px" height="20px"><use href="./images/sprite.svg#linkedin"></use></svg></a>
-
-            </li> 
-          </ul>
-        </section>
+      <div class="footer-social-links">
+        <h3 class="footer-head">присоединяйтесь</h3>
+        <ul class="social-link-list">
+          <li class="footer-social-links-item">
+            <a class="footer-social-link social-link" href="">
+              <svg class="footer-link-icon" width="20px" height="20px">
+                <use href="./images/sprite.svg#instagram"></use></svg></a>
+          </li>
+          <li class="footer-social-links-item">
+            <a class="footer-social-link social-link" href=""
+              ><svg class="footer-link-icon" width="20px" height="20px">
+                <use href="./images/sprite.svg#twitter"></use></svg></a>
+          </li>
+          <li class="footer-social-links-item">
+            <a class="footer-social-link social-link" href=""
+              ><svg class="footer-link-icon" width="20px" height="20px">
+                <use href="./images/sprite.svg#facebook"></use></svg></a>
+          </li>
+          <li class="footer-social-links-item">
+            <a class="footer-social-link social-link" href="">
+              <svg class="footer-link-icon" width="20px" height="20px">
+                <use href="./images/sprite.svg#linkedin"></use></svg></a>
+          </li>
+        </ul>
+      </div>
         <form class="footer-subscribe-form">
           <p class="footer-subscribe-text">Подпишитесь на рассылку</p>
             <div class="footer-input-wrapper">
             <input name="footer-user-email" type="email" class="footer-email-input" placeholder="E-mail" required> 
-           <button type="submit" class="subscribe-btn">Подписаться</button>
-           <svg class="send-btn-icon">
+           <button type="submit" class="subscribe-btn modal-btn">Подписаться <svg class="send-btn-icon">
             <use href="./images/sprite.svg#icon-send" width="24px" height="24px"></use>
-          </svg>
+          </svg></button>
+           
           </div>
           </form>
       </div>
