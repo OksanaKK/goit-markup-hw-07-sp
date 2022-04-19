@@ -1,17 +1,17 @@
-.company-activities {
+.activities {
     padding-top: 0;
   }
   
-  .activities-images-list {
+  .activities-list {
     display: flex;
     }
   
-    .activities-images-wrapper {
+    .activities-list__images-wrapper {
       position: relative;
      
     }
     
-  .activities-text {
+  .activities-list__text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,10 +30,10 @@
  }
   
   
-  .activities-images-item:not(:last-child) {
+  .activities-list__item:not(:last-child) {
     margin-right: 30px;
   }
-  .company-activities-head {
+  .activities__head {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;

@@ -1,13 +1,17 @@
-.section-qualities-list {
+.qualities-list {
     display: flex;
     justify-content: center;
   }
   
-  .section-qualities-list-item {
+  .qualities-list__item {
     width: calc((100%-120px) / 4);
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
-  .qualities-icons {
+  .qualities-list__icons-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,15 +21,8 @@
     border-radius: 4px;
   }
   
-  .qualities-icons {
-    display: flex;
-  }
-  .section-qualities-list-item:not(:last-child) {
-    margin-right: 30px;
-  }
   
-  
-  .section-qualities-list-head {
+  .qualities-list__head {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -34,7 +31,7 @@
     text-transform: uppercase;
     margin-bottom: 10px;
   }
-  .section-qualities-list-text {
+  .qualities-list__text {
     font-size: 14px;
     line-height: 1.71;
   }
